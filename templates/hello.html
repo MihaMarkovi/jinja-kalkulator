@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SmartNinja basic Jinja template</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body style="text-align: center">
+    <h1>Dober dan, SmartNinja!</h1>
+
+    <h2>Seštevanje</h2>
+
+     <form method="post", action="/plus">
+        <label for="prvi_sestevanec">Vpišite prvi seštevanec</label>
+        <input name="plus_1" id="prvi_sestevanec" type="number">
+        <br>
+        <br>
+        <label for="drugi_sestevanec">Vpišite drugi seštevanec</label>
+        <input name="plus_2" id="drugi_sestevanec" type="number">
+        <br>
+        <br>
+         <button type="submit">Seštej</button>
+     </form>
+
+         <h2>Odštevanje</h2>
+
+    <form method ="post", action="/minus">
+         <label for="prvi_odstevanec">Vpišite prvi odštevanec</label>
+        <input name="minus_1" id="prvi_odstevanec" type="number">
+        <br>
+        <br>
+        <label for="drugi_odstevanec">Vpišite drugi odštevanec</label>
+        <input name="minus_2" id="drugi_odstevanec" type="number">
+        <br>
+        <br>
+        <button type="submit">Odšlej</button>
+    </form>
+
+        <h2>Deljenje</h2>
+
+     <form method="post", action="/deljenje">
+        <label for="prvi_deljenec">Vpišite prvi deljenec</label>
+        <input name="deljenje_1" id="prvi_deljenec" type="number">
+        <br>
+        <br>
+        <label for="drugi_deljenec">Vpišite drugi deljenec</label>
+        <input name="deljenje_2" id="drugi_deljenec" type="number">
+        <br>
+        <br>
+         <button type="submit">Deli</button>
+     </form>
+
+        <h2>Množenje</h2>
+
+    <form method="post", action="/mnozenje">
+        <label for="prvi_faktor">Vpišite prvi faktor</label>
+        <input name="mnozenje_1" id="prvi_faktor" type="number">
+        <br>
+        <br>
+        <label for="drugi_faktor">Vpišite drugi faktor</label>
+        <input name="mnozenje_2" id="drugi_faktor" type="number">
+        <br>
+        <br>
+         <button type="submit">Zmnoži</button>
+     </form>
+</body>
+</html>
